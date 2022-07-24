@@ -1,0 +1,76 @@
+.photo {
+    max-width: 200px;
+    border-radius: 100%;
+    margin: 20px auto;
+}
+
+.languages {
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+.timezone {
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: slategray;
+}
+
+.contact {
+    color: #222222;
+}
+
+.profile-container {
+    background: slategray;
+    text-align: center;
+}
+
+.five {
+    background-color: #666666;
+}
+
+.contact-list {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+.heading {
+    color: slategray;
+}
+
+.icon {
+    max-width: 70px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.technologies {
+    margin: 20px auto;
+}
+
+.education {
+    margin: 20px auto;
+}
+
+.fa-solid {
+    margin-right: 5px;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.fa-brands {
+    margin-right: 5px;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.edu-list {
+    font-size: 18px;
+}
