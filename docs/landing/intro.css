@@ -13,3 +13,9 @@
 .intro .text-lead {
   margin-bottom: 16px;
 }
+
+.intro .title-large {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}

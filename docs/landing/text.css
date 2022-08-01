@@ -26,3 +26,13 @@ body {
 .text-medium {
   font-size: 17px;
 }
+
+@media (max-width: 500px) {
+  .intro .title-large {
+    font-size: 30px;
+  }
+
+  .intro .text-lead {
+    font-size: 15px;
+  }
+}
