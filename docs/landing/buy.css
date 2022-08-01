@@ -1,0 +1,23 @@
+.buy {
+  background-color: #a8dadc;
+  color: #f1faee;
+}
+
+.buy .text-lead {
+  margin-bottom: 20px;
+}
+
+.buy .button {
+  border: 0;
+  padding: 10px 20px;
+  vertical-align: baseline;
+}
+
+.buy .button:hover {
+  cursor: pointer;
+}
+
+.form-input-text {
+  font-size: 20px;
+  margin-right: 20px;
+}

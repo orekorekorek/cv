@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing</title>
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="intro.css">
+  <link rel="stylesheet" href="text.css">
+  <link rel="stylesheet" href="button.css">
+  <link rel="stylesheet" href="description.css">
+  <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+  <link rel="stylesheet" href="slider.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="feedback.css">
+  <link rel="stylesheet" href="buy.css">
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+
+  <script type="text/javascript" src="parallax.js-1.5.0/parallax.min.js"></script>
+
+</head>
+<body>
+<header>
+  <div class="container">
+    <a href="#">
+      <img class="header-logo" src="logo/premium-icon-island-2848554.png" alt="Лого">
+    </a>
+    <div class="nav text-center">
+      <ul class="header-nav">
+        <li class="header-nav-item">
+          <a href="#feedback" class="header-nav-link">Отзывы</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#why" class="header-nav-link">Зачем?</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#buy" class="header-nav-link">Купить</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div id="about" class="intro text-center" data-parallax="scroll" data-image-src="hugmJEP.jpg">
+  <h1 class="title-large">Личный<br>(Не)обитаемый<br>Остров</h1>
+  <h2 class="text-lead">Бесплатно доставим вас и ваши вещи на остров в день покупки.</h2>
+  <a class="button button-blue" href="#buy">Купить сейчас</a>
+</div>
+
+<div id="feedback"  class="feedback">
+  <div class="container">
+    <div class="text-center">
+      <h1 class="title-large">Наши довольные клиенты</h1>
+    </div>
+    <div class="reviews">
+      <div class="column-1-2">
+        <div class="feedback-item">
+          <div class="feedback-image">
+            <img class='feedback-photo' src="feedback/izg1.jpg" alt="">
+          </div>
+          <div class="feedback-details">
+            <h3 class="title-small">Чак Ноланд</h3>
+            <p class="text-medium">Огромное спасибо Вашей замечательной команде. Целых 5 лет я провел на
+              первоклассном курорте и приобрел там лучшего друга!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column-1-2">
+        <div class="feedback-item">
+          <div class="feedback-image">
+            <img class='feedback-photo' src="feedback/001_234533_original.jpg" alt="">
+          </div>
+          <div class="feedback-details">
+            <h3 class="title-small">Уилсон</h3>
+            <p class="text-medium">...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="why" class="description text-center">
+  <div class="content">
+    <h1 class="title-medium">Зачем мне остров?</h1>
+    <h2 class="text-lead">Личный остров - это новый тренд 2022 года! Каждый остров по своему уникален и наполнен своей
+      неповторимой
+      природой. Бесконечное лето, тусовки, тематические вечеринки: станьте одним из первых обладателей
+      личного клочка веселья посреди океана!</h2>
+    <div class="slick text-center">
+      <img class="img-slide" src="rotator/foto-ostrova.jpg" alt="">
+      <img class="img-slide" src="rotator/5c06734e9e7b1bG5jQc.th.jpg" alt="">
+      <img class="img-slide" src="rotator/1587542297_1.jpg" alt="">
+      <img class="img-slide" src="rotator/full-moon-party-koh-phangan-samui_01_large.jpg" alt="">
+      <img class="img-slide" src="rotator/1-54.jpg" alt="">
+      <img class="img-slide" src="rotator/1647053255_1-kartinkin-net-p-neobitaemii-ostrov-kartinki-1.jpg" alt="">
+      <img class="img-slide" src="rotator/Murter.jpeg" alt="">
+    </div>
+    <p class="text-small">*Доставка продуктов питания и алкоголя в стоимость не входит и обговариается отдельно</p>
+    <p class="text-small">**Компания не несет ответственности за смерть в диких условиях вашего острова</p>
+  </div>
+</div>
+
+<script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('.slick').slick({
+      infinite: true,
+      dots: true,
+      adaptiveHeight: true,
+    });
+  });
+</script>
+
+<div id="buy" class="buy">
+  <div class="container">
+    <div class="text-center">
+      <h1 class="title-large">Как купить?</h1>
+    </div>
+    <h2 class="text-lead text-center">Оставьте вашу почту и мы свяжемся с вами!</h2>
+    <div class="form text-center">
+      <div class="input">
+        <label>
+          <input class="form-input-text" type="text" name="[email]" placeholder="E-mail">
+        </label>
+        <input type="submit" class="button button-blue" value="Отправить">
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

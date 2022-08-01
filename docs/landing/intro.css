@@ -1,0 +1,15 @@
+.intro {
+  background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 75%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: center top;
+
+  color: #fff;
+  padding: 80px;
+  margin-top: 120px;
+}
+
+.intro .text-lead {
+  margin-bottom: 16px;
+}

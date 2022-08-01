@@ -1,0 +1,20 @@
+.button {
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 15px 30px;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+}
+
+.button-blue {
+  background: #00bbf9;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.button-blue:hover {
+  background: #004c5f;
+  transition: all ease .3s;
+}
