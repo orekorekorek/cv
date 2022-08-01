@@ -4,6 +4,7 @@ header {
   background: #a8dadc;
   top: 0;
   opacity: 0.95;
+  z-index: 1;
 }
 
 .header-logo {
@@ -37,7 +38,7 @@ header {
   transition: all ease .3s;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 960px) {
 
   header {
     text-align: center;
@@ -50,6 +51,10 @@ header {
   .header-nav,
   .header-logo {
     float: none;
+  }
+
+  .header-nav-item {
+    display: block;
   }
 
   .slick {
@@ -72,3 +77,8 @@ header {
     font-size: .8em;
   }
 }
+
+/*@media (max-width: 640px) {*/
+/*  .header-nav-link {*/
+/*  }*/
+/*}*/

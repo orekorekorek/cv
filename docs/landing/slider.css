@@ -1,6 +1,7 @@
 .slick {
   max-width: 50%;
   margin: auto;
+  z-index: 0;
 }
 
 .img-slide {

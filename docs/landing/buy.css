@@ -4,7 +4,7 @@
 }
 
 .buy .text-lead {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .buy .button {
@@ -20,4 +20,8 @@
 .form-input-text {
   font-size: 20px;
   margin-right: 20px;
+}
+
+.input {
+  padding: 10px;
 }
